@@ -1,0 +1,19 @@
+.jumiaMenuItem{
+    display:flex;
+    align-items: center;
+    padding-right: 5rem;
+
+}
+
+.jumiaMenuItem:hover{
+    color: #E4811C;
+}
+
+.jumiaMenuItemName{
+    margin: 0.5rem;
+    font-size: 14px;
+}
+
+i{
+    font-size: 18px !important;
+}

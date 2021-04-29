@@ -1,0 +1,19 @@
+.jumiaCategoryItem{
+    display: flex;
+    align-items: center;
+    width: fit-content;
+    background-color: white;
+    padding: 4px;
+    margin: 0.5rem
+
+
+}
+
+.jumiaCategoryItem__image{
+ height: 40px;
+ margin-right: 1rem;
+}
+
+.jumiaCategoryItem__name{
+    margin-right: 9rem;
+}

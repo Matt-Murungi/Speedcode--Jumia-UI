@@ -1,23 +1,25 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import JumiaCategory from "./JumiaCategory/JumiaCategory";
+import JumiaHeader from "./JumiaHeader/JumiaHeader";
+import JumiaProduct from "./JumiaProduct/JumiaProduct";
+
+import Navigation from "./Navigation/Navigation";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Navigation />
+
+<div className="jumiaBody">
+      <JumiaHeader />
+
+      <JumiaCategory />
+
+      {/* Finally, Building the Product Items */}
+
+   <JumiaProduct />
+
+    </div>
     </div>
   );
 }

@@ -1,0 +1,13 @@
+.jumiaHeader{
+    display: flex;
+    align-items: center;
+    height: auto;
+    margin: 5px;
+  }
+  
+  .jumiaHeader__image{
+    flex: 1;
+    height: 26rem;
+    border-radius: 8px;
+    margin-right: 8px;
+  }

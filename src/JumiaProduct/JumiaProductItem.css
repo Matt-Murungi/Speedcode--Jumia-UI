@@ -1,0 +1,40 @@
+.jumiaProductItem{
+    width:18%;
+    display: flex;
+    flex-direction: column;
+    padding: 1rem 0 1rem 0.8px;
+    background-color: white;
+    margin: 1rem;
+    
+}
+
+.jumiaProductItem:hover{
+    border-radius: 4px;
+    box-shadow: 0px 3px 12px 6px rgba(122,122,122,0.84);
+}
+
+.jumiaProductItem__image{
+    width: 13rem;
+    object-fit: contain;
+    
+}
+
+.jumiaProductItem__name{
+    font-size: 13px;
+    margin-bottom: 8px;
+    margin-left: 8px;
+   
+}
+
+.jumiaProductItem__price{
+    font-size: 18px;
+    font-weight: 500;
+    margin-left: 8px;
+}
+
+.jumiaProductItem__priceCrossed{
+    font-size: 13px;
+    text-decoration: line-through;
+    margin-left: 8px;
+    color: grey;
+}

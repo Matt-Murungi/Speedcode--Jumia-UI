@@ -1,0 +1,8 @@
+.jumiaProduct{
+    display: flex;
+    justify-content: flex-start;
+    margin: 0.5rem ;
+    background-color: white;
+    
+   
+}
