@@ -10,16 +10,13 @@ function App() {
     <div className="App">
       <Navigation />
 
-<div className="jumiaBody">
-      <JumiaHeader />
+      <div className="jumiaBody">
+        <JumiaHeader />
 
-      <JumiaCategory />
+        <JumiaCategory />
 
-      {/* Finally, Building the Product Items */}
-
-   <JumiaProduct />
-
-    </div>
+        <JumiaProduct />
+      </div>
     </div>
   );
 }
